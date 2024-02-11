@@ -1,5 +1,10 @@
+import 'package:ecommers/screens/auth/login/LoginAccount.dart';
 import 'package:flutter/material.dart';
+import 'package:ecommers/screens/auth/login/CreateAccount.dart';
+import 'package:ecommers/screens/auth/login/Details.dart';
+
 class Login extends StatelessWidget {
+
   const Login({super.key});
 
   @override
@@ -39,7 +44,10 @@ class Login extends StatelessWidget {
 
             child: ElevatedButton(
               onPressed: () {
-                // Action to perform when Login button is pressed
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => CreateAccount()),
+                );
               },
 
               child: Text("Sign Up",style: TextStyle(
@@ -53,7 +61,11 @@ class Login extends StatelessWidget {
             height: 50,
             child: ElevatedButton(
               onPressed: () {
-                // Action to perform when Login button is pressed
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => LoginAccount()),
+                );
+
               },
               child: Text("Login",style: TextStyle(
                 color: Colors.black
@@ -67,5 +79,8 @@ class Login extends StatelessWidget {
       ),
     ),
     );
+
   }
+
+
 }
