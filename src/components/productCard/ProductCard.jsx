@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from 'react'
-import myContext from '../../context/data/Mycontext'
+import myContext from '../../context/data/myContext'
 import { useDispatch, useSelector } from 'react-redux'
 import { addToCart } from '../../redux/cartSlice'
 import { toast } from 'react-toastify'

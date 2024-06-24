@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import myContext from '../../context/data/Mycontext'
+import myContext from '../../context/data/myContext'
 import { Link } from 'react-router-dom';
 
 function Footer() {
