@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import myContext from '../../context/data/myContext'
+import myContext from '../../context/data/Mycontext'
 import Layout from '../../components/layout/Layout'
 import Loader from '../../components/loader/Loader'
 

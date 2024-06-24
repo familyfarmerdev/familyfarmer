@@ -1,5 +1,5 @@
 import { useContext, useState } from 'react';
-import myContext from '../../context/data/myContext';
+import myContext from '../../context/data/Mycontext';
 import { toast } from 'react-toastify';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { auth, fireDB } from '../../firebase/FirebaseConfig';
