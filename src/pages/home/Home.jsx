@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import Layout from '../../components/layout/Layout'
 import myContext from '../../context/data/myContext'
-import HeroSection from '../../components/herosection/HeroSection'
 import Filter from '../../components/filter/Filter'
 import ProductCard from '../../components/productCard/ProductCard'
 import Track from '../../components/track/Track'
@@ -12,7 +11,9 @@ import { Link } from 'react-router-dom'
 function Home() {
   return (
     <Layout>
-      <HeroSection />
+        <div>
+        <img src="https://static.vecteezy.com/system/resources/previews/004/299/835/original/online-shopping-on-phone-buy-sell-business-digital-web-banner-application-money-advertising-payment-ecommerce-illustration-search-free-vector.jpg" alt="" />
+    </div>
       <Filter />
       <ProductCard />
       {/* <div className="flex justify-center -mt-10 mb-4">
